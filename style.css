@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Josefin+Sans:wght@400;700&display=swap');
+
+:root {
+--font-family: 'Comic Neue', cursive;
+--bg-color:#ECE3CE;
+--primary-color:#2a6128;
+}
+
+body{
+ background-color:var(--bg-color) ;
+ color:var(--primary-color) ; 
+ font-family:var(--font-family) ;
+ min-height:100vh ;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ margin:0 ;  
+}
+h1{
+font-size:6em ;    
+}
+h3{
+font-size:4em ;
+margin-top:20px ;     
+}
+.mensagem{
+font-size:2em ;
+margin-top:40px ;   
+}
+.box{
+ border:3px solid var(--primary-color) ;
+ border-radius:6px ;
+ display: inline-block;
+ font-size:4em ;
+ padding:10px ;
+ margin:20px ;   
+}
+.btn{
+font-family:var(--font-family) ;
+margin-top:100px ;
+font-size:2em ;
+color:var(--primary-color) ;
+border:3px solid var(--primary-color) ;
+border-radius:4px ;   
+}
+.btn:hover{
+ background-color: rgb(251, 205, 145);   
+}
